@@ -14,8 +14,10 @@ Use an if-else statement to classify the triangle. side1, side2, side3 ->*/
         Scanner sc =  new Scanner(System.in);
         System.out.println("Enter Triangle side1 Length");
         int side1 = sc.nextInt();
+
         System.out.println("Enter Triangle side2 Length");
         int side2 = sc.nextInt();
+
         System.out.println("Enter Triangle side3 Length");
         int side3 = sc.nextInt();
         sc.close();
