@@ -11,7 +11,7 @@ public class PalindromeOfString {
             ch = name.charAt(i);
 
 
-            for (int j = name.length(); j > 0; j--)
+            for (int j = name.length()-1; j > 0; j--)
             {
                char  cha = name.charAt(j);
 
